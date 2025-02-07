@@ -1,0 +1,46 @@
+.mediaDetailWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: rgb(178, 178, 178);
+  overflow-y: auto;
+  .mediaDetailThumbnail {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+  }
+  .mediaDetailRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+  }
+  .mediaDetailTitle {
+  }
+  .mediaDetailDuration {
+  }
+  .mediaDetailDownloadOptions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-height: 100%;
+  }
+  .mediaDetailDownloadItem {
+    border-radius: 20px;
+    padding: 7px 12px;
+    border: 1px solid #b35432;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 10px;
+    &:hover {
+      background-color: #b35432;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.linkInputForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .link {
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    outline: none;
+    background-color: rgb(255, 244, 244);
+  }
+  .linkButton {
+    background-color: #b35432;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover{
+        background-color: #6f341e;
+    }
+  }
+}
+
+.heading {
+  color: white;
+}
